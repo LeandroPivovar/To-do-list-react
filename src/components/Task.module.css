@@ -1,0 +1,75 @@
+.task{
+    background-color: var(--gray-500);
+    border-radius: 8px;
+    border: 1px solid var(--gray-400);
+    color: var(--white);
+    padding: 1rem;
+    width: 100%;
+    line-height: 1.6;
+    gap: 1rem;
+    display: grid;
+    grid-template-columns:40px 86% 10px;
+}
+
+.task .buttonCircle{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 999px;
+    border: 2px solid var(--blue-100);
+    cursor: pointer;
+}
+
+.task .buttonCircle:hover{
+    background-color: var(--blue-200);
+}
+
+.task .buttonTrash{
+    cursor: pointer;
+    color: var(--gray-300)
+}
+
+.task .buttonTrash:hover{
+    color: var(--red-100);
+}
+
+
+.taskFinally{
+    background-color: var(--gray-500);
+    border-radius: 8px;
+    border: 1px solid var(--gray-400);
+    color: var(--gray-300);
+    padding: 1rem;
+    width: 100%;
+    line-height: 1.6;
+    gap: 1rem;
+    display: grid;
+    grid-template-columns:40px 86% 10px;
+    text-decoration: line-through;
+}
+
+.taskFinally .buttonCircle{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 999px;
+    background-color: var(--purple-200);
+    cursor: pointer;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.taskFinally .buttonCircle:hover{
+    background-color: var(--purple-100);
+}
+
+.taskFinally .buttonTrash{
+    cursor: pointer;
+    color: var(--gray-300)
+}
+
+.taskFinally .buttonTrash:hover{
+    color: var(--red-100);
+}
+
+

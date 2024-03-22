@@ -1,0 +1,50 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.listTasks{
+    margin-top: 6.25rem;
+    width: 46rem;
+}
+
+.listTasks .wrapperHeader{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.listTasks .wrapperHeader p{
+    font-size: 0.875rem;
+    color: var(--blue-100);
+    font-weight: bold;
+}
+
+.listTasks .wrapperHeader p:last-child{
+    font-size: 0.875rem;
+    color: var(--purple-100);
+    font-weight: bold;
+}
+
+.listTasks .wrapperHeader p .countNumber{
+    color: var(--white);
+    background-color: var(--gray-400);
+    padding: 2px 10px;
+    border-radius: 999px;
+    margin-left: 0.5rem;
+    font-size: 0.875rem;
+}
+
+.listTasks .taskListContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: var(--gray-300);
+    border-top: 1px solid var(--gray-400);
+    border-radius: 8px;
+}
+

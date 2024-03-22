@@ -1,0 +1,12 @@
+.emptyTasks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 4rem;
+}
+
+.emptyTasks p{
+  line-height: 1.6;
+}
